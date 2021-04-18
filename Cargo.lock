@@ -464,6 +464,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_minesweeper"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "kernel32-sys",
+ "rand",
+]
+
+[[package]]
 name = "bevy_pbr"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -599,15 +608,6 @@ dependencies = [
  "instant",
  "num_cpus",
  "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "bevy_template"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "kernel32-sys",
- "rand",
 ]
 
 [[package]]

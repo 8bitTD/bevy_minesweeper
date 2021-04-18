@@ -6,7 +6,7 @@ fn main() {
     unsafe { kernel32::FreeConsole() };
     App::build()
     .insert_resource(WindowDescriptor{
-        title: "bevy_template".to_string(),
+        title: "bevy_minesweeper".to_string(),
         width: system::RESOLUTION,
         height: system::RESOLUTION,
         vsync: false,

@@ -1,5 +1,5 @@
 [package]
-name = "bevy_template"
+name = "bevy_minesweeper"
 version = "0.1.0"
 authors = ["8bit <8bittd@gmail.com>"]
 edition = "2018"
