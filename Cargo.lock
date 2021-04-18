@@ -606,6 +606,7 @@ name = "bevy_template"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "kernel32-sys",
  "rand",
 ]
 

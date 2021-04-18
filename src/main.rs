@@ -3,6 +3,7 @@ use define::*;
 pub mod state;
 pub mod define;
 fn main() {
+    unsafe { kernel32::FreeConsole() };
     App::build()
     .insert_resource(WindowDescriptor{
         title: "bevy_template".to_string(),
